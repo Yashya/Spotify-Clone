@@ -171,9 +171,12 @@ a{
     width: 150px;
     border-radius:0.5rem ;
     padding: 1rem;
+    margin-left: 1.5rem;
 }
-.card-container{
+.cards-container{
     display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
 }
 .card-img{
     width: 100%;
@@ -188,4 +191,17 @@ a{
     font-size: 0.75rem;
     opacity: 0.7rem;
 /* problem here opacity not decreasing. */
+}
+
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid white;
+    opacity: 0.4;
 }
