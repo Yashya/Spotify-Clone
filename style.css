@@ -267,3 +267,32 @@ a{
     border-radius: 50%;
     margin-top: -6px;
 }
+
+.album{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.album-cover{
+    height: 100%;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+.album-icon img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-top: 16px;
+    margin-left: 14px;
+}
+.details{
+    padding: 3px;
+}
+
+.track{
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.artist{
+    font-size: 10px;
+}
